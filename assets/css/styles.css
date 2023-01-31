@@ -69,7 +69,9 @@ a {
     flex-direction: column;
     position: relative;
     background: #e6f0ff;
-    height: 100vh; /*Vì theo những màn hình khác nhau thì sẽ có tỉ lệ khác nhau không nên để cố định 1 chiều cao. Nên là 100vh*/
+    height: calc(
+        100vh - 90px
+    ); /*Vì theo những màn hình khác nhau thì sẽ có tỉ lệ khác nhau không nên để cố định 1 chiều cao. Nên là 100vh*/
 }
 
 .navbar {
